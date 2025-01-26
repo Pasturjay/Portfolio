@@ -15,6 +15,7 @@ export default function ProductCard({ id, name, price, image, category }: Produc
         width={300}
         height={300}
         className="w-full h-48 object-cover"
+        unoptimized
       />
       <div className="p-4">
         <Badge className="mb-2">{category}</Badge>
